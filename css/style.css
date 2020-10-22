@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+header{
+    width: 100%;
+    float: left;
+    background: #fec608;
+    position: fixed;
+}
+.menu{
+    width: 50%;
+    float: left;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+nav{
+
+}
+nav ul{
+    margin: 20px 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* --------------------------------------hero section css ------------------*/
+
+.hero{
+    background: url(../img/banner_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+.hero-shadow{
+    background: #000000a3;
+    /* padding: 100px; */
+    width: 100%;
+    float: left;
+}
+.hero-main{
+    padding: 116PX 0PX;
+}
+.hero-main h1{
+ color: antiquewhite;
+}
+.hero-main h2{
+    color: cornsilk;
+}
+.hero-main h1 samp{
+    color:#ffc400;
+    font-size: 25px;
+}
+
+/* --------------------------------------hero section css ends------------------*/
+
+/* -------------------------about section css starts---------------------------- */
+.about{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+.about-img{
+    width: 50%;
+    float: left;
+}
+.about-img img{
+    border-radius: 265px;
+}
+.about-text{
+    width: 50%;
+    float: left;
+}
+.about-text h1{
+    text-align: center;
+    padding-bottom: 32px;
+}
+.about-text h2{
+    text-align: center;
+    background: #7fffd463;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.about-text p{
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+}
+.icon-style i{
+    padding: 10px;
+    color: white;
+    background: black;
+    /* border-radius: 16px; */
+}
+.icon-style button{
+    padding: 10px;
+    border-style: none;
+    margin: 10px 0px;
+}
+.icon-style{
+    text-decoration: none;
+    text-align: center;
+}
+/* -------------------------about section css ends ----------------------------- */
+
+ /* --------------------------skill section starts--------------------------------------------  */
+ .skill{
+     width: 100%;
+     float: left;
+     text-align: center;
+     padding: 0px 20px;
+     background: #ffe4c48a;
+ }
+ .skill-java{
+    width: 50%;
+    float: left;
+ }
+ .skill-java img{
+     width: 300px;
+ }
+ .skill-java p{
+    padding: 20px;
+ }
+ .skill-python{
+    width: 50%;
+    float: left;
+ }
+ .skill-python img{
+    width: 300px;
+ }
+ .skill-python p{
+     padding: 20px;
+ }
+ .skill-html{
+    width: 50%;
+    float: left;
+ }
+ .skill-html img{
+    width: 300px;
+ }
+ .skill-html p{
+    padding: 20px;
+ }
+.skill-bootstrap{
+    width: 50%;
+    float: left;
+}
+.skill-bootstrap img{
+    width: 300px;
+}
+.skill-bootstrap p{
+    padding: 20px;
+}
+.skill-text{
+    padding: 30px 0px;
+    /* margin-bottom: 50px; */
+    font-size: x-large;
+}
+ /* --------------------------skill section ends--------------------------------------------  */
+
+ /* --------------------------services section starts----------- */
+
+ .services{
+    width: 100%;
+    float: left;
+ }
+ .services h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 39px;
+ }
+ .ser1{
+    width: 28%;
+    float: left;
+    padding: 25px;
+ }
+ .ser-icon{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 50px;
+ }
+ .ser-text{
+    text-align: justify;
+    font-weight: 700;
+    line-height: 30px;
+ }
+ .ser2{
+    width: 28%;
+    float: left;
+    padding: 25px;
+ }
+ .ser3{
+    width: 28%;
+    float: left;
+    padding: 25px;
+ }
+ .ser4{
+    width: 28%;
+    float: left;
+    padding: 25px;
+ }
+
+ /* -------------------service section ends---------------------- */
+
+ /* -------------------education section starts------------------------ */
+.education{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #ffe4c48a;
+    padding-bottom: 25px;
+
+}
+.education h1{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 39px;
+}
+.education p{
+    margin-top: 29px;
+    line-height: 25px;
+}
+.education i{
+    padding: 50px;
+    background: #c816162e;
+    border-radius: 92px;
+}
+.edu-bsc{
+    width: 27%;
+    float: left;
+    padding: 30px;
+    background: thistle;
+    margin: 5px;
+}
+.edu-hsc{
+    width: 27%;
+    float: left;
+    padding: 30px;
+    background: thistle;
+    margin: 5px;
+}
+.edu-ssc{
+    width: 27%;
+    float: left;
+    padding: 30px;
+    background: thistle;
+    margin: 5px;
+}
+ /* -------------------education section ends-------------------------------------- */
+
+ /* --------------------contact section starts------------------------------------- */
+
+ .contact{
+    width: 100%;
+    float: left;
+    text-align: center;
+ }
+ .contact h2{
+    padding: 80px;
+    font-size: 39px;
+ }
+ .contact-info{
+    width: 24%;
+    float: left;
+ }
+ .contact-info p{
+     float: left;
+    line-height: 40px;
+ }
+ .contact-info h3 , .contact-media h3 {
+    margin-bottom: 23px;
+    font-size: 23px;
+ }
+ .contact-media{
+    width: 24%;
+    float: left;
+ }
+ /* .contact-media h3{
+    margin-bottom: 23px;
+ } */
+ .contact-form{
+    width: 50%;
+    float: left;
+ }
+ .contact-form input, textarea {
+    width: 86%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+ }
+ .con-icon-style i{
+    padding: 10px;
+    color: white;
+    background: black;
+    border-radius: 16px;
+}
+.con-icon-style button{
+    border-style: none;
+    padding: 10px;
+}
+.con-icon-style{
+    text-decoration: none;
+    text-align: center;
+}
+.submit{
+background-color: rgb(168, 89, 89);
+}
+.contact-form button{
+    border-style: none;
+}
+ /* -------------------contact section ends--------------------------------------- */
+
+ /* -------------------footer section starts--------------------------------------- */
+ .footer{
+     width: 100%;
+    float: right;
+    border: 1px solid red;
+    background-color: brown;
+    padding: 30px 0px;
+    margin-top: 30px;
+ }
+ .footer h4{
+     text-align: right;
+     margin-right: 30px;
+     color: seashell;
+ }
+  /* -------------------footer section endss--------------------------------------- */
