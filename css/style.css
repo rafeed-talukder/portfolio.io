@@ -133,8 +133,14 @@ nav ul li a{
  .skill-java img{
      width: 300px;
  }
- .skill-java p{
+ .skill-java p,.skill-python p,.skill-html p,.skill-bootstrap p{
     padding: 20px;
+    font-weight: bolder;
+ }
+ .skill-java a,.skill-python a,.skill-html a,.skill-bootstrap a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
  }
  .skill-python{
     width: 50%;
@@ -142,10 +148,11 @@ nav ul li a{
  }
  .skill-python img{
     width: 300px;
+    height: 169px;
  }
- .skill-python p{
+ /* .skill-python p{
      padding: 20px;
- }
+ } */
  .skill-html{
     width: 50%;
     float: left;
@@ -153,19 +160,20 @@ nav ul li a{
  .skill-html img{
     width: 300px;
  }
- .skill-html p{
+ /* .skill-html p{
     padding: 20px;
- }
+ } */
 .skill-bootstrap{
     width: 50%;
     float: left;
 }
 .skill-bootstrap img{
     width: 300px;
+    height: 167px;
 }
-.skill-bootstrap p{
+/* .skill-bootstrap p{
     padding: 20px;
-}
+} */
 .skill-text{
     padding: 30px 0px;
     /* margin-bottom: 50px; */
@@ -178,6 +186,25 @@ nav ul li a{
  .services{
     width: 100%;
     float: left;
+ }
+ .research{
+    text-align: center;
+ }
+ .research h4{
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 0px;
+ }
+ .research p{
+    text-align: center;
+    /* text-shadow: 1px orangered; */
+    line-height: 30px;
+ }
+ .research a{
+    text-decoration: none;
+    color: #ee1b0b;
+    text-align: center;
+    font-weight: bolder;
  }
  .services h1{
     text-align: center;
@@ -193,11 +220,17 @@ nav ul li a{
     text-align: center;
     padding: 30px 0px;
     font-size: 50px;
+    color: #ab0a0a;
  }
  .ser-text{
     text-align: justify;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 30px;
+ }
+ .ser-text h3{
+    text-align: center;
+    margin-bottom: 30px;
+
  }
  .ser2{
     width: 28%;
@@ -231,9 +264,17 @@ nav ul li a{
     text-align: center;
     font-size: 39px;
 }
+.education h3{
+  line-height: 30px;
+}
 .education p{
     margin-top: 29px;
     line-height: 25px;
+}
+.education a{
+    text-decoration: none;
+    color: #ff0052;
+    font-weight: bolder;
 }
 .education i{
     padding: 50px;
